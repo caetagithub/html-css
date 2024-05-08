@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* Fontes Externas */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+.passion-one-regular {
+   font-family: "Passion One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.passion-one-bold {
+   font-family: "Passion One", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+
+.passion-one-black {
+   font-family: "Passion One", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+}
+
+.sriracha-regular {
+   font-family: "Sriracha", cursive;
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* Código CSS */
+
+* {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ h1 {
+   font-family: "Passion One", sans-serif;
+   font-weight: 400;
+   color: white;
+   margin: 0px;
+ }
+
+ /* Capitular a primeira letra
+ h1::first-letter {
+   font-size: 3rem;
+ }
+ */
+
+ span {
+   font-size: 1.5em;
+ }
+
+ a {
+   font-family: "Passion One", sans-serif;
+   font-weight: normal;
+   color: white;
+   margin: 0px;
+   text-decoration: none;
+   font-size: 0.7em;
+ }
+
+ p {
+   font-family: "Sriracha", sans-serif;
+   font-weight: bold;
+   padding: 40px 10px;
+   text-shadow: rgba(0, 0, 0, 0.087) 1px 1px 1px;
+ }
+
+header {
+   max-width: 500px;
+   margin: auto;
+   background-color: black;
+   text-align: center;
+   border: 2px solid black;
+   padding: 30px 0px;
+}
+
+main {
+   background-color: white;
+   max-width: 500px;
+   margin: auto;
+   border: 2px solid black;
+   padding: 0px;
+}
+
+section > p {
+   position: absolute;
+   color: white;
+   font-weight: normal;
+   background-color: rgba(0, 0, 0, 0.202);
+   padding: 20px 10px;
+   translate: 0px 50px;
+}
+
+ img {
+   max-width: 500px;
+   margin: 0px;
+   padding: 0px;
+ }

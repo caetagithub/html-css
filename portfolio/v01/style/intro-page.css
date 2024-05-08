@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* Colors and Fonts */
+
+:root {
+   --color01: #15405D;
+   --color02: #17A0BF;
+   --color03: #F25C69;
+   --color04: #F8B070;
+   --color05: #F2EBDF;
+   --font-standard: Impact, 'Arial Narrow Bold', sans-serif
+}
+
+/* Code */
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-image: url(../images/intro.jpeg);
+   background-size: cover;
+}
+
+main {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   translate: -50% -50%;
+}
+
+a {
+   color: white;
+   font-family: var(--font-standard);
+   border: 4px solid white;
+   text-decoration: none;
+   padding: 10px;
+   font-size: 200px;
+}
+
+a:hover {
+   font-size: 400px;
+   transition-duration: 1s;
+   border: 3px solid #15405D;
+   background-color: rgba(0, 0, 0, .5);
+}
+
+footer {
+   position: absolute;
+   top: 90%;
+   left: 90%;
+   translate: -50% -50%;
+   text-align: right;
+}
+
+p {
+   font-family: var(--font-standard);
+   color: black;
+   border: 2px solid black;
+   padding: 5px 5px 5px 0px;
+}
