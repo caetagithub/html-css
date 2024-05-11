@@ -63,10 +63,11 @@ nav > a:hover {
 }
 
 main {
-   display: flex;
+   display: grid;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+
 }
 
 section {
