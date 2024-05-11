@@ -27,20 +27,20 @@ main {
    position: absolute;
    top: 50%;
    left: 50%;
-   translate: -50% -50%;
+   translate: -50% -50%
 }
 
-a {
+main a.standard {
    color: white;
    font-family: var(--font-standard);
    border: 4px solid white;
    text-decoration: none;
    padding: 10px;
-   font-size: 200px;
+   font-size: 100px;
 }
 
-a:hover {
-   font-size: 400px;
+main a.standard:hover {
+   font-size: 200px;
    transition-duration: 1s;
    border: 3px solid #15405D;
    background-color: rgba(0, 0, 0, .5);
@@ -51,12 +51,26 @@ footer {
    top: 90%;
    left: 90%;
    translate: -50% -50%;
-   text-align: right;
+   text-align: center;
+   background-color: white;
+   padding: 5px;
+   border: black 1px solid;
 }
 
-p {
+footer:hover {
+   background-color: black;
+   transition-duration: 0.5s;
+}
+
+footer a.special {
    font-family: var(--font-standard);
+   text-decoration: none;
    color: black;
-   border: 2px solid black;
-   padding: 5px 5px 5px 0px;
+}
+
+footer a.special:hover {
+   font-family: var(--font-standard);
+   text-decoration: none;
+   color: white;
+   transition-duration: 0.5s;
 }
