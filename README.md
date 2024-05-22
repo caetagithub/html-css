@@ -5,4 +5,5 @@ Repositório de arquivos e projetos feitos no Curso em Vídeo do professor Gusta
 
 Exercícios e Desafios do Módulos 1 - OK<br>
 Exercícios e Desafios do Módulos 2 - OK<br>
-Exercícios e Desafios do Módulos 3 - Em Andamento
+Exercícios e Desafios do Módulos 3 - OK<br>
+Exercícios e Desafios do Módulos 4 - Em Andamento
