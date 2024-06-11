@@ -4,55 +4,50 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Formulário VII</title>
-   <style>
-      body {
-         font-family: Arial, Helvetica, sans-serif;
-      }
-      fieldset {
-         width: 300px;
-      }
-   </style>
+   <link rel="stylesheet" href="form007.css">
 </head>
 <body>
-   <h1>Exemplo de Formulário</h1>
-   <form action="cadastro.php" method="post" autocomplete="on">
-      <fieldset>
-         <legend>Mais Ferramentas</legend>
-         <p>
-            <label for="iestado">Estado: </label>
-            <select name="estado" id="iestado">
-               <option value="" selected>---Escolha Seu Estado---</option>
-               <optgroup label="Regisão Sudeste">
-                  <option value="mg">Minas Gerais</option>
-                  <option value="rj">Rio de Janeiro</option>
-                  <option value="sp">São Paulo</option>
-               </optgroup>
-               <optgroup label="Região Sul">
-                  <option value="pa">Paraná</option>
-                  <option value="rs">Rio Grande do Sul</option>
-                  <option value="sc">Santa Catarina</option>
-               </optgroup>
-            </select>
+   <main>
+      <h1>Formulário</h1>
+      <form action="cadastro.php" method="post" autocomplete="on">
+         <fieldset>
+            <legend>Seus dados</legend>
+            <p>
+               <label for="iestado">Estado: </label>
+               <select name="estado" id="iestado">
+                  <option value="" selected>---Escolha Seu Estado---</option>
+                  <optgroup label="Regisão Sudeste">
+                     <option value="mg">Minas Gerais</option>
+                     <option value="rj">Rio de Janeiro</option>
+                     <option value="sp">São Paulo</option>
+                  </optgroup>
+                  <optgroup label="Região Sul">
+                     <option value="pa">Paraná</option>
+                     <option value="rs">Rio Grande do Sul</option>
+                     <option value="sc">Santa Catarina</option>
+                  </optgroup>
+               </select>
+            </p>
+            <p>
+               <label for="iprof">Profissão: </label>
+               <input type="text" name="prof" id="iprof" list="listaprof">
+               <datalist id="listaprof">
+                  <option value="adm">Administrador</option>
+                  <option value="con">Contador</option>
+                  <option value="dev">Desenvolvedor</option>
+                  <option value="pro">Professor</option>
+               </datalist>
+            </p>
+            <p>
+               <label for="imensagem">Mensagem: </label><br>
+               <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
+            </p>
+         </fieldset>
+         <p class="botoes">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
          </p>
-         <p>
-            <label for="iprof">Profissão: </label>
-            <input type="text" name="prof" id="iprof" list="listaprof">
-            <datalist id="listaprof">
-               <option value="adm">Administrador</option>
-               <option value="con">Contador</option>
-               <option value="dev">Desenvolvedor</option>
-               <option value="pro">Professor</option>
-            </datalist>
-         </p>
-         <p>
-            <label for="imensagem">Mensagem: </label><br>
-            <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
-         </p>
-      </fieldset>
-      <p>
-         <input type="submit" value="Enviar">
-         <input type="reset" value="Limpar">
-      </p>
-   </form>
+      </form>
+   </main>
 </body>
 </html>
