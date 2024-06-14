@@ -39,6 +39,7 @@ menu {
 
 menu > ul {
    list-style-type: none;
+   text-align: center;
 }
 
 menu > ul > li > a {
@@ -61,7 +62,7 @@ main {
    margin: auto;
    padding: 10px;
    border-radius: 10px;
-   margin-top: 10px;
+   margin-top: 20px;
 }
 
 article > h2 {
