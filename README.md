@@ -8,7 +8,7 @@
    </head>
       <body style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
          <header style="width: 40vw; margin: auto;">
-            <img src="logo.png" width="90%" style="background-position: center center;">
+            <img src="logo.jpg" width="90%" style="background-position: center center;">
          </header>
       <main>
          <h1>Curso em Vídeo - HTML/CSS</h1>
