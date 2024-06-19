@@ -17,7 +17,7 @@
             <thead>
                <tr>
                   <th>Descrição</th>
-                  <th>Completado?</th>
+                  <th>Completado? </th>
                </tr>
             </thead>
             <tbody>
