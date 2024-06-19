@@ -5,11 +5,10 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Curso em Vídeo - HTML/CSS</title>
    </head>
       <body style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
          <header style="width: 40vw; margin: auto;">
-            <img src="logo.jpg" width="90%" style="background-position: center center;">
+            <img src="logo.png" width="90%" style="background-position: center center;">
          </header>
       <main>
          <h1>Curso em Vídeo - HTML/CSS</h1>
